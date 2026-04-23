@@ -12,7 +12,8 @@ assets_folders = ['audio',
 for folder in assets_folders:
     folder_path = os.path.join(
             parent_path, 
-            '{{cookiecutter.game_name}}', 
+            '{{cookiecutter.game_name}}',
+            'assets', 
             folder
             )
     os.makedirs(folder_path)
